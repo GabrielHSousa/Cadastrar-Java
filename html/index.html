@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+    <script type="text/javascript" src="../javascript/funcoes.js"></script>
+</head>
+<body>
+    <form>
+        <label id="lNome">Nome: </label>
+        <input type="text" id="tNome" placeholder="Nome completo"/><br><br>
+
+        <label id="lTelefone">Telefone: </label>
+        <input type="text" id="tTelefone" placeholder="(11) 99999-9999"/><br><br>
+
+        <label id="lEndereco">Endereco: </label>
+        <input type="text" id="tEndereco" placeholder="Endereço completo"/><br><br>
+
+        <label id="lCidade">Cidade: </label>
+        <input type="text" id="tCidade" placeholder="Cidade"/><br><br>
+    </form>
+        <button onclick="coletar()">Cadastrar</button>
+        <textarea id="tResultado" style="width:10%;height:100px" readonly></textarea>
+    
+</body>
+</html>
